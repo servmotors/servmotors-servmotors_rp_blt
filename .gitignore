@@ -1,0 +1,70 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Arquivos de ambiente e configuração
+.env
+.env.*
+!.env.example
+
+# Arquivos de build
+/dist/
+/build/
+/client/dist/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Cache e configurações do editor
+.cache/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Configurações do Replit
+.replit
+.breakpoints
+.upm/
+replit.nix
+replit_zip_error_log.txt
+
+# Uploads de usuários (manter apenas exemplo)
+/uploads/*
+!/uploads/.gitkeep
+
+# Arquivos de configuração sensíveis
+/config/firebase-service-account.json
+/config/*.json
+!/config/example-*.json
+
+# Arquivos temporários
+*.tmp
+*.temp
+.temp/
+
+# Capacitor
+/client/android/
+/client/ios/
+/client/dist/
+/client/www/
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de teste
+coverage/
+.nyc_output/
+
+# Arquivos de sistema
+Thumbs.db
+.AppleDouble
+.LSOverride
